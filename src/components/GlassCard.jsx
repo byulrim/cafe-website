@@ -1,0 +1,9 @@
+import React from 'react';
+
+const GlassCard = ({ children, className = "" }) => (
+  <div className={`bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl rounded-3xl ${className}`}>
+    {children}
+  </div>
+);
+
+export default GlassCard;
